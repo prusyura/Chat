@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var socket = io.connect('http://chatprusyura.herokuapp.com');
+    var socket = io.connect('window.location.host');
     
 	socket.emit('joinclient',"is connect");
 	socket.on('joinserver',function(data){
