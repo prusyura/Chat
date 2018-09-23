@@ -10,7 +10,9 @@
 </head>
 <body>
      <div class="row justify-content-center">
+       
         <form method="POST">
+            <label class="label-log col-sm-12">Вхід в Чат</label>
           <div class="form-group ">
             <label>Логін</label>
             <input type="text" class="form-control"  name="username"  placeholder="Введіть свій логін" autocomplete="off">
@@ -19,9 +21,9 @@
             <label for="exampleInputPassword1">Пароль</label>
             <input type="password" class="form-control"  name="password" placeholder="Введіть свій пароль" autocomplete="off">
           </div>
-          <div class="">
-            <button type="submit" class="btn btn-primary " formaction="/login">Підтвердити</button>
-            <button type="submit" class="btn btn-primary regist" formaction="/regist">Регістрація</button>
+          <div class="form-group ">
+            <button type="submit" class="btn btn-primary col-sm-12" formaction="/login">Підтвердити</button>
+            <button type="submit" class="btn btn-danger col-sm-12 regist" formaction="/regist">Регістрація</button>
           </div>
         </form> 
      </div>   

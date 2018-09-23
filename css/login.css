@@ -1,3 +1,14 @@
 .row{
     margin:30vh;
 }
+.label-log{
+    font-size: 30px;
+    text-align: center
+}
+form{
+    background-color: #f4f4f4;
+    border-radius: 4px ;
+}
+body{
+    background-color:#a1e8ff;
+}
