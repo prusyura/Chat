@@ -145,7 +145,7 @@ io.on('connection',function(socket){
 			user:user
 			});
 		socket.broadcast.emit('joinserver',{
-			msg:"До нас долучився ",
+			msg:"new user ",
 			mas:users,
 			user:user
 			});
@@ -161,7 +161,7 @@ io.on('connection',function(socket){
 		var pos = users.indexOf(user);
 		users.splice(pos,1);
 		socket.broadcast.emit('outserver',
-			{msg:" Від нас пішов ",
+			{msg:" delete user ",
 			mas:users,
 			user:user
 			});
