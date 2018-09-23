@@ -1,0 +1,52 @@
+body{
+	background-color: #FFFACD;
+}
+.conteiner-fluid .row .col-sm-3{
+	text-align: center;
+	font-size: 30px;
+	font-family: Verdana;
+}
+.block{
+	border: 2px solid grey;
+	border-radius: 10px;
+	height: 90vh;
+	background-color:#1E90FF;
+	color: aliceblue;
+	text-align: center;
+	padding: 10px;
+	
+}
+.block .chat{
+	border: 2px solid grey;
+	border-radius: 10px;
+	height: 83vh;
+	padding: 10px;
+	background-color:#f7fafe;
+	color: rgb(160, 131, 131);
+	text-align: left;
+	
+	
+}
+.block .users{
+	border: 2px solid grey;
+	border-radius: 10px;
+	height: 83vh;
+	padding: 10px;
+	background-color: #f7fafe;
+	color: rgb(160, 131, 131);
+}
+.block .users li{
+	color:#05c90c;
+	text-align: left;
+}
+.conteiner-fluid{
+	height: 90vh;
+	width: 90vw;
+	margin-left: 5vw;
+}
+.conteiner-fluid .row .col-sm-1{
+	padding: 0;
+}
+.conteiner-fluid .row .col-sm-1 .btn{
+	width: 100%;
+}
